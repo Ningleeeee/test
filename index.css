@@ -16,12 +16,12 @@ li {
 .sidebar {
   display: flex;
   flex-direction: column;
+  background-color: darksalmon;
 }
 a {
   text-decoration: none;
-  color: white;
+  color: brown;
   padding: 20px 10px;
-  text-decoration: underline;
 }
 .main {
   display: flex;
@@ -30,4 +30,10 @@ a {
 }
 .form {
   margin: 30px;
+}
+a:hover {
+  text-decoration: underline;
+}
+li:hover {
+  text-decoration: underline;
 }
