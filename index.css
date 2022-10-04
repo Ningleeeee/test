@@ -33,7 +33,9 @@ a {
 }
 a:hover {
   text-decoration: underline;
+  color: yellowgreen;
 }
 li:hover {
+  color: yellowgreen;
   text-decoration: underline;
 }
