@@ -4,4 +4,6 @@ ul {
 }
 li {
   list-style: none;
+  color: brown;
+  padding: 10px;
 }
