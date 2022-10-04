@@ -31,3 +31,9 @@ a {
 .form {
   margin: 30px;
 }
+a:hover {
+  text-decoration: underline;
+}
+li:hover {
+  text-decoration: underline;
+}
