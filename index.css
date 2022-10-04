@@ -1,9 +1,33 @@
+* {
+  margin: 0 auto;
+}
 ul {
   display: flex;
   gap: 10px;
+  background-color: darksalmon;
 }
+
 li {
   list-style: none;
   color: brown;
-  padding: 10px;
+  padding: 15px;
+  font-weight: 500;
+}
+.sidebar {
+  display: flex;
+  flex-direction: column;
+}
+a {
+  text-decoration: none;
+  color: white;
+  padding: 20px 10px;
+  text-decoration: underline;
+}
+.main {
+  display: flex;
+  background-color: slategrey;
+  gap: 30px;
+}
+.form {
+  margin: 30px;
 }
